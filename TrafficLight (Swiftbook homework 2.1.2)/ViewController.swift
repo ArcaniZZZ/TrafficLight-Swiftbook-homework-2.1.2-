@@ -9,18 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var redLight: UIView!
-    @IBOutlet weak var yellowLight: UIView!
-    @IBOutlet weak var greenLight: UIView!
+    
+    @IBOutlet var orangeLight: UIView!
+    @IBOutlet var blueLight: UIView!
+    @IBOutlet var purpleLight: UIView!
+    @IBOutlet var buttonLabel: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        redLight.layer.cornerRadius = 20
-        yellowLight.layer.cornerRadius = 20
-        greenLight.layer.cornerRadius = 20
-        redLight.alpha = 0.3
-        yellowLight.alpha = 0.3
-        greenLight.alpha = 0.3
+        orangeLight.layer.cornerRadius = 75
+        blueLight.layer.cornerRadius = 75
+        purpleLight.layer.cornerRadius = 75
+    
     }
 
 

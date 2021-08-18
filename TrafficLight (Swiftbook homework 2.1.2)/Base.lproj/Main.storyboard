@@ -65,6 +65,12 @@
                             <constraint firstItem="v0k-kS-xyE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t5U-we-FXl"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="blueLight" destination="J1S-AZ-qk6" id="7F5-0d-u9o"/>
+                        <outlet property="buttonLabel" destination="v0k-kS-xyE" id="W5Y-d7-jWs"/>
+                        <outlet property="orangeLight" destination="fj3-Xl-rky" id="1i4-Zi-I5r"/>
+                        <outlet property="purpleLight" destination="ZcQ-Lf-4jW" id="aO8-xl-LRd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
