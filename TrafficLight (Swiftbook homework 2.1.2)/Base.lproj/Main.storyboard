@@ -43,7 +43,7 @@
                                 <rect key="frame" x="132" y="686" width="150" height="42"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="bg1-hZ-Vnm"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="bg1-hZ-Vnm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <state key="normal" title="Button">
